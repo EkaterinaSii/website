@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My website</title>
+        <meta charset="utg-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Final project WebDev">
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <link rel="stylesheet" href="styles/responsivity.css"/>
+        <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!--NAVIGATION-->
+            <nav class="column">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!--FIRST BLOCKS-->
+            <div class="main_page" id="flex">
+                <!--block with text and button-->
+                <div class="column column1" id="a">
+                    <div id="text">
+                        <h1>Your Site</h1>
+                        <hr id="hor_line"/>
+                        <h2>Your World</h2>
+                    </div>
+                    <div id="p_text">
+                        <p><b>YourSiteYourWorld</b> is a </p>
+                            <p>revolutionary product that you</p> 
+                            <p>pay for and get not nothing in </p>
+                            <p>return. Simple as that!</p>
+                    </div>
+                    <button type="button" id="sign_up_button"> <i class="lni lni-arrow-right"></i> Signup now!</button>
+                </div>
+                <!--picture-->
+                <div class="column column2" id="b">
+                    <img id="head_pic" src="img/main_header.svg" alt="main_header"/>
+                </div>
+            </div>
+            <!--ICONS SECTION-->
+            <div id="section_with_icons">
+                <h2>Used by multiple Companies</h2>
+                <h3>Used by your company? <a href="#">Let us know!</a></h3>
+                <div class="rows">
+                    <div class="rows row20"></div>
+                    <div class="rows background">
+                        <img class="icons" src="img/company1_wewrap.svg" alt="WeWrap">
+                        <p>WeWrap</p>
+                    </div>
+                    <div class="rows row10"></div>
+                    </div class="rows">
+                    <div class="rows background">
+                        <img class="icons" src="img/company2_crapple.svg" alt="CrApple">
+                        <p>CrApple</p>
+                    </div>
+                    <div class="rows row10"></div>
+                    <div class="rows background"> 
+                        <img class="icons" src="img/company3_campdroid.svg" alt="CAmproid">
+                        <p>CAmproid</p>
+                    </div>   
+                    <div class="rows row20"></div>   
+                </div>         
+            </div>
+            <!--SELL SECTION-->
+            <div id="sell_div" >
+                <div class="column" id="img_guy">
+                    <img src="img/howitworks.svg" alt="GuyWithText">
+                </div>
+                <div class="column" id="text_div">
+                    <div id="h4"><p>How it Works</p></div>
+                    <div class="p_margin">
+                    <p class="orange">You pay a small</p>
+                    <p class="orange">fee of $9.99</p></span>
+                    </div>
+                    <div class="p_margin">
+                    <p class="grey">Wait for confirmation </p>
+                    <p class="grey">email and get nothing</p>
+                    </div>
+                    <p class="grey">Enjoy!</p>
+                </div>
+            </div>
+            <!--PURCHASE SECTION-->
+            <div id="purchase_div">
+                <div id="section_purchase">
+                <h5>Ready to purchase?</h5>
+                <input type="name" name="name" id="name" class="field" placeholder="Your Name"/>
+                <input type="email" name="email" id="email" class = "field" placeholder="Your Email Address"/>
+                <button type="button" id="purchase_button"> <i class="lni lni-money-location"></i> Purchase</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!--FOOTER-->
+            <div class="footer">
+                <p>Created by <a href="#">Foley Company Ltd</a></p>
+            </div>
+        </footer>
+
+
+    </body>
+
+</html>
